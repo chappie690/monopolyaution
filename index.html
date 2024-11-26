@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monopoly Auction</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Monopoly Auction</h2>
+    <label for="property">Select Property:</label>
+    <select id="property">
+      <option value="Old Kent Road">Old Kent Road</option>
+      <option value="Whitechapel Road">Whitechapel Road</option>
+      <option value="King's Cross station">King's Cross station</option>
+      <option value="The Angel, Islington">The Angel, Islington</option>
+      <option value="Euston Road">Euston Road</option>
+      <option value="Pentonville Road">Pentonville Road</option>
+      <option value="Pall Mall">Pall Mall</option>
+      <option value="Whitehall">Whitehall</option>
+      <option value="Northumberland Avenue">Northumberland Avenue</option>
+      <option value="Marylebone station">Marylebone station</option>
+      <option value="Bow Street">Bow Street</option>
+      <option value="Marlborough Street">Marlborough Street</option>
+      <option value="Vine Street">Vine Street</option>
+      <option value="Strand">Strand</option>
+      <option value="Fleet Street">Fleet Street</option>
+      <option value="Trafalgar Square">Trafalgar Square</option>
+      <option value="Fenchurch Street station">Fenchurch Street station</option>
+      <option value="Leicester Square">Leicester Square</option>
+      <option value="Coventry Street">Coventry Street</option>
+      <option value="Piccadilly">Piccadilly</option>
+      <option value="Regent Street">Regent Street</option>
+      <option value="Oxford Street">Oxford Street</option>
+      <option value="Bond Street">Bond Street</option>
+      <option value="Liverpool Street station">Liverpool Street station</option>
+      <option value="Park Lane">Park Lane</option>
+      <option value="Mayfair">Mayfair</option>
+    </select>
+    <div id="bid-amount">Current Bid: $0</div>
+    <button id="bid-btn">Place Bid</button>
+    <div id="timer">Time Remaining: 20s</div>
+    <div id="result"></div>
+  </div>
+  
+  <!-- Tick-Tock Sound -->
+  <audio id="tick-sound" src="tick-sound.mp3" preload="auto"></audio>
+  <!-- Ching Sound -->
+  <audio id="ching-sound" src="ching.mp3" preload="auto"></audio>
+  
+  <script src="script.js"></script>
+</body>
+</html>

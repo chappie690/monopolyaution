@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Container for the auction interface */
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+/* Buttons Styling */
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Disabled button styling */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Timer and Bid Display */
+#timer, #bid-amount, #result {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* Hover effect for buttons */
+button:hover:not(:disabled) {
+  background-color: #45a049;
+}
